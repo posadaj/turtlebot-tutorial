@@ -103,6 +103,7 @@ Installing ROS">Installing ROS &raquo; </a>
   <article class="post-content">
     <h2 id="ubuntu-what">Ubuntu What?</h2>
 
+<!-- Linux what? -->
 <p><a href="http://www.ubuntu.com/download/desktop/">Ubuntu</a> is a (free) community-based Linux distribution. The desktop version feels rather similar to Mac with a “Finder”, icons to start apps, browsers and everything else users of commercial operating systems are accustomed to employing.</p>
 
 <h2 id="very-important">Very Important!</h2>
@@ -113,6 +114,7 @@ Installing ROS">Installing ROS &raquo; </a>
 
 <h2 id="did-linux-and-ros-come-pre-installed-with-turtlebot">Did Linux and ROS Come Pre-Installed with TurtleBot?</h2>
 
+<!-- Open terminal on netbook? Or somewhere else? How to connect netbook and the turtlebot?-->
 <p>If you purchased TurtleBot and it came pre-installed with Linux and ROS, you should check which versions shipped with your computer. You can find out which version of Linux you have by opening a terminal (ctrl + alt + t) and typing:</p>
 
 <div class="highlight"><pre><code class="language-sh" data-lang="sh">lsb_release -a</code></pre></div>
@@ -143,6 +145,7 @@ Installing ROS">Installing ROS &raquo; </a>
 
 <p>If you look below the <code>PARAMETERS</code> heading, you’ll see <code>/rosdistro:...</code>. Whatever is written next is the name of your ROS distribution. In our case it’s indigo, which is what we want.</p>
 
+<!-- 12 being the _Release_? Good idea to match name with the image shown above-->
 <p>When we purchased our TurtleBot 2 in September 2014 it shipped with Ubuntu 12 (12 being the version #) and ROS Hydro (Hydro being the distribution release’s name). The developers of ROS highly recommend using Ubuntu 14.04 LTS and ROS Indigo instead.</p>
 
 <h2 id="why-should-i-use-or-upgrade-to-ros-indigo-and-ubuntu-1404">Why Should I Use (or upgrade to) ROS Indigo and Ubuntu 14.04?</h2>
@@ -151,10 +154,12 @@ Installing ROS">Installing ROS &raquo; </a>
 
 <p>ROS Hydro and earlier distributions are not LTS.</p>
 
+<!-- Update with currently shipped distro -->
 <p><em><strong>TIP:</strong> The recently added “Jade” distribution is not LTS.</em></p>
 
 <h2 id="how-to-install-linux">How to Install Linux</h2>
 
+<!-- What about Mac users? At least point them towards virtualbox or something similar -->
 <p>We started with two Windows computers and installed Linux instead. As we <a href="/2015/02/01/2/">mentioned in a previous post</a>, you have the TurtleBot netbook and a workstation. You’ll install Ubuntu Desktop 14.04 LTS on both of them using the same process.</p>
 
 <h2 id="create-installation-usb-drive">Create Installation USB drive</h2>
@@ -175,6 +180,10 @@ Installing ROS">Installing ROS &raquo; </a>
 
 <p>If you’ve set the correct Boot Drive you should see a few different options. The first one is “Try Ubuntu”; skip this as we are going to commit! Select “Install Ubuntu”. In the “Installation Type” settings we recommend “Erase”. </p>
 
+<!-- Are we really recommending to beginners to erase their OS? 
+For the netbook, no problem
+But for the workstation, this is costly and not easy for newcomers
+I imagine they won't b buying a dedicated workstation so let's give instructions to partition hard drive or any other options -->
 <div class="critical_warning">
   <div class="critical_warning_title">Warning</div>
 
